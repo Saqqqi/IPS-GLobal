@@ -1,80 +1,88 @@
-import { Zap, BarChart3, Globe2, Code2 } from "lucide-react";
+import { Layout, Search, Code2, ShieldCheck } from "lucide-react";
 
 export default function CoreServicesSection() {
     return (
-        <section className="bg-gray-100 py-20">
+        <section id="services" className="bg-gray-50 py-16 md:py-20">
             <div className="max-w-6xl mx-auto px-6">
 
-                <h2 className="text-3xl font-bold text-[#0d3553] mb-12">
-                    Our Core Services
-                </h2>
+                <div className="text-center mb-10 md:mb-12">
+                    <h2 className="text-2xl md:text-3xl font-bold text-[#0d3553] mb-2">
+                        Our Core Service Pillars
+                    </h2>
+                    <p className="text-gray-600 text-sm md:text-base max-w-2xl mx-auto">
+                        End-to-end digital solutions tailored to the UK market, delivering premium results without the premium price tag.
+                    </p>
+                </div>
 
-                <div className="grid md:grid-cols-2 gap-12">
-
-                    <div>
-                        <div className="mb-4 text-[#0d3553]">
-                            <Zap size={48} />
+                <div className="grid md:grid-cols-3 gap-5 md:gap-6">
+                    {/* Web & App Development */}
+                    <div className="bg-white p-5 md:p-6 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition-all hover:-translate-y-1 duration-300">
+                        <div className="mb-4 text-blue-600 bg-blue-50 w-12 h-12 flex items-center justify-center rounded-lg">
+                            <Code2 size={24} />
                         </div>
-                        <h3 className="text-xl font-semibold text-[#0d3553] mb-2">
-                            Digital Transformation
+                        <h3 className="text-lg md:text-xl font-bold text-[#0d3553] mb-2">
+                            Custom Web & App Development
                         </h3>
-                        <p className="text-gray-600 text-sm mb-4">
-                            We help you digitally transform your business by modernizing key systems,
-                            accelerating innovation, and providing a personalized customer experience.
+                        <p className="text-gray-600 text-xs md:text-sm leading-relaxed mb-4">
+                            Tailored software solutions built with modern stacks. From high-converting e-commerce sites to bespoke enterprise mobile applications, we build for scale and performance.
                         </p>
-                        <button className="bg-[#0d3553] text-white px-5 py-2 rounded-full text-sm hover:opacity-90 transition-opacity">
-                            Learn More
-                        </button>
+                        <ul className="text-xs text-gray-500 space-y-1.5">
+                            <li className="flex items-center gap-2">
+                                <span className="w-1.5 h-1.5 bg-blue-400 rounded-full"></span>
+                                React, Next.js & Node.js
+                            </li>
+                            <li className="flex items-center gap-2">
+                                <span className="w-1.5 h-1.5 bg-blue-400 rounded-full"></span>
+                                Native & Cross-platform Apps
+                            </li>
+                        </ul>
                     </div>
 
-                    <div>
-                        <div className="mb-4 text-[#0d3553]">
-                            <BarChart3 size={48} />
+                    {/* Strategic SEO */}
+                    <div className="bg-white p-5 md:p-6 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition-all hover:-translate-y-1 duration-300">
+                        <div className="mb-4 text-blue-600 bg-blue-50 w-12 h-12 flex items-center justify-center rounded-lg">
+                            <Search size={24} />
                         </div>
-                        <h3 className="text-xl font-semibold text-[#0d3553] mb-2">
-                            Finance & Accounting
+                        <h3 className="text-lg md:text-xl font-bold text-[#0d3553] mb-2">
+                            Strategic SEO & Growth
                         </h3>
-                        <p className="text-gray-600 text-sm mb-4">
-                            We simplify finance for businesses with precision-driven services
-                            including bookkeeping, forecasting, and detailed financial reporting.
+                        <p className="text-gray-600 text-xs md:text-sm leading-relaxed mb-4">
+                            Dominate search rankings and drive organic traffic. Our data led SEO strategies focus on ROI, ensuring your business gets found by the right customers at the right time.
                         </p>
-                        <button className="bg-[#0d3553] text-white px-5 py-2 rounded-full text-sm hover:opacity-90 transition-opacity">
-                            Learn More
-                        </button>
+                        <ul className="text-xs text-gray-500 space-y-1.5">
+                            <li className="flex items-center gap-2">
+                                <span className="w-1.5 h-1.5 bg-blue-400 rounded-full"></span>
+                                Technical SEO Audits
+                            </li>
+                            <li className="flex items-center gap-2">
+                                <span className="w-1.5 h-1.5 bg-blue-400 rounded-full"></span>
+                                Content Strategy & Authority
+                            </li>
+                        </ul>
                     </div>
 
-                    <div>
-                        <div className="mb-4 text-[#0d3553]">
-                            <Globe2 size={48} />
+                    {/* UI/UX Redesign */}
+                    <div className="bg-white p-5 md:p-6 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition-all hover:-translate-y-1 duration-300">
+                        <div className="mb-4 text-blue-600 bg-blue-50 w-12 h-12 flex items-center justify-center rounded-lg">
+                            <Layout size={24} />
                         </div>
-                        <h3 className="text-xl font-semibold text-[#0d3553] mb-2">
-                            BPO Services
+                        <h3 className="text-lg md:text-xl font-bold text-[#0d3553] mb-2">
+                            UI/UX Design & Branding
                         </h3>
-                        <p className="text-gray-600 text-sm mb-4">
-                            We serve as a scalable back-office partner for U.S. and Canadian enterprises,
-                            delivering skilled professionals across multiple roles.
+                        <p className="text-gray-600 text-xs md:text-sm leading-relaxed mb-4">
+                            User centric designs that bridge the gap between aesthetics and functionality. We create premium digital experiences that resonate with your brand and maximize conversions.
                         </p>
-                        <button className="bg-[#0d3553] text-white px-5 py-2 rounded-full text-sm hover:opacity-90 transition-opacity">
-                            Learn More
-                        </button>
+                        <ul className="text-xs text-gray-500 space-y-1.5">
+                            <li className="flex items-center gap-2">
+                                <span className="w-1.5 h-1.5 bg-blue-400 rounded-full"></span>
+                                Interactive Prototyping
+                            </li>
+                            <li className="flex items-center gap-2">
+                                <span className="w-1.5 h-1.5 bg-blue-400 rounded-full"></span>
+                                Conversion-focused UI
+                            </li>
+                        </ul>
                     </div>
-
-                    <div>
-                        <div className="mb-4 text-[#0d3553]">
-                            <Code2 size={48} />
-                        </div>
-                        <h3 className="text-xl font-semibold text-[#0d3553] mb-2">
-                            Software Development
-                        </h3>
-                        <p className="text-gray-600 text-sm mb-4">
-                            We engineer reliable software solutions including custom in-house tools,
-                            mobile apps, and engaging web applications.
-                        </p>
-                        <button className="bg-[#0d3553] text-white px-5 py-2 rounded-full text-sm hover:opacity-90 transition-opacity">
-                            Learn More
-                        </button>
-                    </div>
-
                 </div>
             </div>
         </section>

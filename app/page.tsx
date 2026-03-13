@@ -3,6 +3,7 @@ import DescriptionSection from "@/components/DescriptionSection";
 import PartnerSection from "@/components/PartnerSection";
 import WhoWeHelpSection from "@/components/WhoWeHelpSection";
 import CoreServicesSection from "@/components/CoreServicesSection";
+import WebsiteRescueSection from "@/components/WebsiteRescueSection";
 import WhyChooseSection from "@/components/WhyChooseSection";
 import CaseStudiesSection from "@/components/CaseStudiesSection";
 import HowWeWorkSection from "@/components/HowWeWorkSection";
@@ -17,9 +18,10 @@ export default function Home() {
       <Header />
       <HeroSection />
       <DescriptionSection />
-      <PartnerSection />
+      {/* <PartnerSection /> */}
       <WhoWeHelpSection />
       <CoreServicesSection />
+      <WebsiteRescueSection />
       <WhyChooseSection />
       <CaseStudiesSection />
       <HowWeWorkSection />

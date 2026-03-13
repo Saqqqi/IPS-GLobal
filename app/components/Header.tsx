@@ -6,36 +6,36 @@ export default function Header() {
             <div className="max-w-6xl mx-auto px-6 w-full flex items-center justify-between">
 
                 {/* Logo */}
-                <div className="flex items-center w-44 h-16">
+                <a href="#home" className="flex items-center w-44 h-16">
                     <Image
                         src="/IPS Global Logo.svg"
-                        alt="IPSGlobal Logo"
+                        alt="IPS Global Logo"
                         width={200}
                         height={40}
                         className="object-contain h-10 w-auto transform transition-all hover:scale-105"
                         priority
                     />
-                </div>
+                </a>
 
                 {/* Navigation Links */}
                 <nav className="hidden md:flex gap-8 text-sm font-semibold">
-                    <a href="#services" className="hover:text-blue-600 transition-colors">Services</a>
-                    <a href="#how-we-work" className="hover:text-blue-600 transition-colors">How We Work</a>
-                    <a href="#case-studies" className="hover:text-blue-600 transition-colors">Case Studies</a>
-                    <a href="#testimonials" className="hover:text-blue-600 transition-colors">Testimonials</a>
-                    <a href="#contact" className="hover:text-blue-600 transition-colors">Contact</a>
+                    <a href="#home" className="hover:text-[#0d3553] transition-colors">Home</a>
+                    <a href="#services" className="hover:text-[#0d3553] transition-colors">Services</a>
+                    <a href="#Maintenance-&-Support" className="hover:text-[#0d3553] transition-colors">Maintenance & Support</a>
+                    <a href="#case-studies" className="hover:text-[#0d3553] transition-colors">Case Studies</a>
+                    <a href="#contact" className="hover:text-[#0d3553] transition-colors">Contact</a>
                 </nav>
 
                 {/* CTA Button */}
                 <div className="hidden md:block">
-                    <button className="bg-[#0d3553] text-white px-6 py-2 rounded-full text-sm font-semibold hover:bg-[#0d3553]/90 transition-colors shadow-md">
+                    <a href="#contact" className="inline-block bg-[#0d3553] text-white px-6 py-2 rounded-full text-sm font-semibold hover:bg-blue-900 transition-colors shadow-md">
                         Get Started
-                    </button>
+                    </a>
                 </div>
 
                 {/* Mobile menu icon */}
                 <div className="md:hidden">
-                    <button>
+                    <button aria-label="Toggle Menu">
                         <svg className="w-6 h-6 text-gray-900" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
                             <path strokeLinecap="round" strokeLinejoin="round" d="M4 8h16M4 16h16" />
                         </svg>

@@ -1,60 +1,62 @@
 export default function WhoWeHelpSection() {
     return (
-        <section className="bg-[#1f4762] text-white py-20">
+        <section className="bg-[#0d3553] text-white py-12 md:py-16">
 
             <div className="max-w-6xl mx-auto px-6">
 
-                <h2 className="text-3xl font-bold text-center">
-                    Who We Help & Why
-                </h2>
+                <div className="text-center mb-10 md:mb-12">
+                    <h2 className="text-2xl md:text-3xl font-bold mb-2">
+                        Who We Empower & Why
+                    </h2>
+                    <p className="text-sm md:text-base text-blue-200 max-w-2xl mx-auto">
+                        IPS Global partners with startups, SMBs, and established enterprises to solve complex digital challenges.
+                    </p>
+                </div>
 
-                <p className="text-center text-sm mt-3 mb-12 text-gray-200">
-                    IPSGlobal partners with small and medium-sized businesses (SMBs) and enterprises to help them:
-                </p>
-
-                <div className="grid md:grid-cols-2 gap-6">
-
-                    <div className="border border-white rounded-lg p-6 flex gap-4 items-center">
-                        <span className="border border-white w-10 h-10 flex items-center justify-center rounded-full">
+                <div className="grid md:grid-cols-2 gap-4 md:gap-6">
+                    <div className="bg-white/5 border border-white/10 rounded-xl p-5 md:p-6 flex gap-4 items-start hover:bg-white/10 transition-colors">
+                        <span className="bg-blue-600 text-white w-8 h-8 flex items-center justify-center rounded-lg font-bold shrink-0 text-sm">
                             01
                         </span>
-                        <p>Streamline Workflows and Eliminate Repetitive Tasks</p>
+                        <div>
+                            <h4 className="font-bold text-base md:text-lg mb-1">Startups & Scaleups</h4>
+                            <p className="text-blue-100/70 text-xs md:text-sm leading-relaxed">Launching ground up MVPs and scaling digital products with speed and precision.</p>
+                        </div>
                     </div>
 
-                    <div className="border border-white rounded-lg p-6 flex gap-4 items-center">
-                        <span className="border border-white w-10 h-10 flex items-center justify-center rounded-full">
+                    <div className="bg-white/5 border border-white/10 rounded-xl p-5 md:p-6 flex gap-4 items-start hover:bg-white/10 transition-colors">
+                        <span className="bg-blue-600 text-white w-8 h-8 flex items-center justify-center rounded-lg font-bold shrink-0 text-sm">
                             02
                         </span>
-                        <p>Develop custom software to meet their unique needs</p>
+                        <div>
+                            <h4 className="font-bold text-base md:text-lg mb-1">Legacy Businesses</h4>
+                            <p className="text-blue-100/70 text-xs md:text-sm leading-relaxed">Rescuing outdated systems, fixing critical bugs, and modernizing user experiences.</p>
+                        </div>
                     </div>
 
-                    <div className="border border-white rounded-lg p-6 flex gap-4 items-center">
-                        <span className="border border-white w-10 h-10 flex items-center justify-center rounded-full">
+                    <div className="bg-white/5 border border-white/10 rounded-xl p-5 md:p-6 flex gap-4 items-start hover:bg-white/10 transition-colors">
+                        <span className="bg-blue-600 text-white w-8 h-8 flex items-center justify-center rounded-lg font-bold shrink-0 text-sm">
                             03
                         </span>
-                        <p>Replacing Outdated Systems with Scalable Custom Business Applications</p>
+                        <div>
+                            <h4 className="font-bold text-base md:text-lg mb-1">E-commerce Brands</h4>
+                            <p className="text-blue-100/70 text-xs md:text-sm leading-relaxed">Increasing conversions with user-centric design and technical SEO that dominates search.</p>
+                        </div>
                     </div>
 
-                    <div className="border border-white rounded-lg p-6 flex gap-4 items-center">
-                        <span className="border border-white w-10 h-10 flex items-center justify-center rounded-full">
+                    <div className="bg-white/5 border border-white/10 rounded-xl p-5 md:p-6 flex gap-4 items-start hover:bg-white/10 transition-colors">
+                        <span className="bg-blue-600 text-white w-8 h-8 flex items-center justify-center rounded-lg font-bold shrink-0 text-sm">
                             04
                         </span>
-                        <p>Overcome IT Staffing Challenges with Pre-vetted Professionals</p>
-                    </div>
-
-                </div>
-
-                <div className="flex justify-center mt-8">
-                    <div className="border border-white rounded-lg px-10 py-6 flex gap-4 items-center">
-                        <span className="border border-white w-10 h-10 flex items-center justify-center rounded-full">
-                            05
-                        </span>
-                        <p>Migrate to Cloud Solutions for Increased Agility & Security</p>
+                        <div>
+                            <h4 className="font-bold text-base md:text-lg mb-1">B2B Service Providers</h4>
+                            <p className="text-blue-100/70 text-xs md:text-sm leading-relaxed">Optimizing workflows and building custom portals to enhance client satisfaction.</p>
+                        </div>
                     </div>
                 </div>
 
-                <p className="text-center text-sm mt-12 text-gray-200">
-                    We're in the business of making things possible for you with just the right solution.
+                <p className="text-center text-xs md:text-sm mt-8 md:mt-10 text-blue-200 font-medium">
+                    High energy digital solutions for every growth phase.
                 </p>
 
             </div>

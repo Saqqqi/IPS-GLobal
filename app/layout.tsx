@@ -13,40 +13,76 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "IPSGlobal | Digital Transformation & BPO Solutions",
-  description: "IPSGlobal is a global leader in Digital Transformation, BPO services, Software Development, and Finance & Accounting. We empower businesses with scalable backend infrastructure and automated workflows.",
-  keywords: "IPSGlobal, Digital Transformation, BPO Services, Software Development, Business Automation, Finance Outsourcing, Accounting Services, Cloud Solutions, IT Consulting",
-  authors: [{ name: "IPSGlobal Team" }],
-  viewport: "width=device-width, initial-scale=1",
+  title: {
+    default: "IPS Global | Integrated Platform Systems: Design, Development & SEO",
+    template: "%s | IPS Global"
+  },
+  description: "IPS Global (Integrated Platform Systems) delivers premium design, development, and SEO solutions from our London studio. High-energy digital products with 2 months of post-launch maintenance.",
+  keywords: [
+    "Integrated Platform Systems",
+    "IPS Global",
+    "Digital Agency London",
+    "Web Design London",
+    "Software Development UK",
+    "Strategic SEO London",
+    "UI/UX Design Agency",
+    "Website Rescue",
+    "Legacy Code Modernization"
+  ],
+  authors: [{ name: "IPS Global", url: "https://ipsglobal.co" }],
+  creator: "IPS Global",
+  publisher: "IPS Global",
+  formatDetection: {
+    email: false,
+    address: false,
+    telephone: false,
+  },
+  metadataBase: new URL("https://ipsglobal.co"),
+  alternates: {
+    canonical: "/",
+  },
   openGraph: {
-    title: "IPSGlobal | Scale Faster & Smarter",
-    description: "Empowering businesses through digital transformation, automation, and scalable backend infrastructure.",
+    title: "IPS Global | Integrated Platform Systems: Design, Development & SEO",
+    description: "Scale faster and smarter with London's premier integrated digital agency. Design, Development, and SEO under one roof.",
     url: "https://ipsglobal.co",
-    siteName: "IPSGlobal",
+    siteName: "IPS Global",
     images: [
       {
-        url: "/og-image.png", // Recommended size: 1200x630
+        url: "/og-image.png", // Ensure this image exists or plan for it
         width: 1200,
         height: 630,
+        alt: "IPS Global - Integrated Digital Agency",
       },
     ],
-    locale: "en_US",
+    locale: "en_GB",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "IPSGlobal | Scale Faster & Smarter",
-    description: "Empowering businesses through digital transformation, automation, and scalable backend infrastructure.",
+    title: "IPS Global | Integrated Platform Systems: Design, Development & SEO",
+    description: "High-energy design, development, and SEO solutions based in London.",
     images: ["/og-image.png"],
   },
   icons: {
     icon: [
       {
         url: "/IPS White.svg",
-        sizes: "any",
         type: "image/svg+xml",
       },
     ],
+    shortcut: "/IPS White.svg",
+    apple: "/IPS White.svg",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
   },
 };
 
