@@ -34,9 +34,10 @@ export default function Header() {
                 {/* Desktop Navigation Links */}
                 <nav className="hidden md:flex gap-8 text-sm font-semibold">
                     <a href="#home" className="hover:text-[#0d3553] transition-colors">Home</a>
+                    <a href="#about" className="hover:text-[#0d3553] transition-colors">About</a>
                     <a href="#services" className="hover:text-[#0d3553] transition-colors">Services</a>
                     <a href="#Maintenance-&-Support" className="hover:text-[#0d3553] transition-colors">Maintenance & Support</a>
-                    <a href="#case-studies" className="hover:text-[#0d3553] transition-colors">Case Studies</a>
+                    {/* <a href="#case-studies" className="hover:text-[#0d3553] transition-colors">Case Studies</a> */}
                     <a href="#contact" className="hover:text-[#0d3553] transition-colors">Contact</a>
                 </nav>
 
@@ -49,9 +50,9 @@ export default function Header() {
 
                 {/* Mobile Menu Toggle */}
                 <div className="md:hidden flex items-center h-full">
-                    <button 
-                        aria-label="Toggle Menu" 
-                        onClick={toggleMenu} 
+                    <button
+                        aria-label="Toggle Menu"
+                        onClick={toggleMenu}
                         className="text-gray-900 p-2 -mr-2 focus:outline-none"
                     >
                         {isMobileMenuOpen ? (
@@ -67,11 +68,12 @@ export default function Header() {
             {isMobileMenuOpen && (
                 <div className="absolute top-16 left-0 w-full bg-white shadow-xl border-b border-gray-100 flex flex-col px-6 py-6 gap-6 md:hidden">
                     <a href="#home" onClick={closeMenu} className="text-gray-900 font-semibold text-base hover:text-[#0d3553]">Home</a>
+                    <a href="#about" onClick={closeMenu} className="text-gray-900 font-semibold text-base hover:text-[#0d3553]">About</a>
                     <a href="#services" onClick={closeMenu} className="text-gray-900 font-semibold text-base hover:text-[#0d3553]">Services</a>
                     <a href="#Maintenance-&-Support" onClick={closeMenu} className="text-gray-900 font-semibold text-base hover:text-[#0d3553]">Maintenance & Support</a>
-                    <a href="#case-studies" onClick={closeMenu} className="text-gray-900 font-semibold text-base hover:text-[#0d3553]">Case Studies</a>
-                    <a href="#contact" onClick={closeMenu} className="text-gray-900 font-semibold text-base hover:text-[#0d3553]">Contact</a>
-                    
+                    {/* <a href="#case-studies" onClick={closeMenu} className="text-gray-900 font-semibold text-base hover:text-[#0d3553]">Case Studies</a> */}
+                    {/* <a href="#contact" onClick={closeMenu} className="text-gray-900 font-semibold text-base hover:text-[#0d3553]">Contact</a> */}
+
                     <a href="#contact" onClick={closeMenu} className="inline-block bg-[#0d3553] text-white px-6 py-3 rounded-xl text-center font-bold shadow-md hover:bg-blue-900 mt-2">
                         Get Started
                     </a>

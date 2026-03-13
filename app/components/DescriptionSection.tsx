@@ -1,6 +1,6 @@
 export default function DescriptionSection() {
     return (
-        <section className="bg-white text-center py-16">
+        <section id="about" className="bg-white text-center py-16">
             <div className="max-w-3xl mx-auto px-6">
                 <p className="text-gray-700 text-lg leading-relaxed font-medium">
                     IPS Global is a London-based digital agency built by high-energy designers and developers.
