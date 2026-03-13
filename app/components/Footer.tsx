@@ -102,7 +102,7 @@ export default function Footer() {
                 {/* Bottom Bar */}
                 <div className="pt-6 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-4">
                     <p className="text-[10px] font-medium text-gray-600">
-                        © {new Date().getFullYear()} IPS Global. All coding & design by our London team.
+                        © {new Date().getFullYear()} IPS Global.All Rights Reserved.
                     </p>
                 </div>
             </div>

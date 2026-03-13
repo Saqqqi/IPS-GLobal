@@ -1,4 +1,4 @@
-import { PoundSterling, Clock, Code2, MapPin, Zap } from "lucide-react";
+import { PoundSterling, Clock, Code2, Map, Zap } from "lucide-react";
 
 export default function WhyChooseSection() {
     const features = [
@@ -18,9 +18,9 @@ export default function WhyChooseSection() {
             description: "From ground up builds to legacy code rescue. We fix bugs, scale features, and breathe life into existing platforms."
         },
         {
-            icon: <MapPin size={24} />,
-            title: "London Studio",
-            description: "Based in Tooting, London. We establish regional trust through local accessibility and deep understanding of the UK landscape."
+            icon: <Map size={24} />,
+            title: "Customized Project Roadmaps",
+            description: "Roadmaps aligned with your growth phase."
         }
     ];
 

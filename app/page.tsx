@@ -21,9 +21,10 @@ export default function Home() {
       {/* <PartnerSection /> */}
       <WhoWeHelpSection />
       <CoreServicesSection />
-      <WebsiteRescueSection />
+
       <WhyChooseSection />
-      <CaseStudiesSection />
+      <WebsiteRescueSection />
+      {/* <CaseStudiesSection /> */}
       <HowWeWorkSection />
       <CTASection />
       <TestimonialsSection />
