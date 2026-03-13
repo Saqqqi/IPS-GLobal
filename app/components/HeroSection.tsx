@@ -66,9 +66,9 @@ export default function HeroSection() {
 
                 {/* LEFT TEXT */}
                 <div className="space-y-6">
-                    <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white text-black text-xs font-bold tracking-wide uppercase">
-                        <span className="w-2 h-2 bg-black rounded-full animate-pulse"></span>
-                        Integrated Platform Systems: Design, Development, & SEO.
+                    <div className="inline-flex items-start sm:items-center gap-2 px-3 sm:px-4 py-2 sm:py-1 rounded-xl sm:rounded-full bg-white text-black text-[10px] sm:text-xs font-bold tracking-wide uppercase">
+                        <span className="w-1.5 h-1.5 sm:w-2 sm:h-2 bg-black rounded-full shrink-0 animate-pulse mt-1 sm:mt-0"></span>
+                        <span className="leading-snug text-left">Integrated Platform Systems: Design, Development, & SEO.</span>
                     </div>
 
                     <h1 className="text-4xl md:text-5xl font-bold leading-snug tracking-tight text-white font-sans">
