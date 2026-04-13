@@ -79,7 +79,7 @@ export default function HeroSection() {
                     </h1>
 
                     <p className="text-gray-300 text-sm max-w-lg leading-relaxed font-sans opacity-90 mx-auto lg:mx-0">
-                        IPS Global is a London-based digital agency delivering high performance design, development, and SEO. We build scalable, conversion focused digital products at competitive UK rates.     </p>
+                        IPS Global is a London based digital agency delivering high performance design, development, and SEO. We build scalable, conversion focused digital products at competitive UK rates.     </p>
 
                     <div className="flex flex-wrap justify-center lg:justify-start gap-2.5">
                         <div className="flex items-center gap-2 px-3.5 py-1.5 rounded-lg bg-white/5 border border-white/10 backdrop-blur-sm text-[11px] font-semibold text-gray-200 hover:bg-white/10 transition-all cursor-default">
@@ -103,7 +103,7 @@ export default function HeroSection() {
                         <h3 className="text-xl font-extrabold mb-0.5 text-white text-center">
                             Let&apos;s Work Together!
                         </h3>
-                     
+
 
                         <form className="space-y-3" onSubmit={handleSubmit}>
                             {/* Full Name */}
