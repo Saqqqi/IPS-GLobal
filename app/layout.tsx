@@ -14,76 +14,118 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: "IPS Global | Integrated Platform Systems: Design, Development & SEO",
-    template: "%s | IPS Global"
+    default: "IPS Global | Digital Agency London | Web Development, Design & SEO",
+    template: "%s | IPS Global",
   },
-  description: "IPS Global (Integrated Platform Systems) delivers premium design, development, and SEO solutions from our London studio. High-energy digital products with 2 months of post-launch maintenance.",
+
+  description:
+    "IPS Global is a leading London-based digital agency specializing in high-performance web development, UI/UX design, and strategic SEO. We build scalable, conversion-focused digital platforms for modern businesses.",
+
   keywords: [
-    "Integrated Platform Systems",
+    // Brand
     "IPS Global",
+    "Integrated Platform Systems",
+
+    // Core Services
     "Digital Agency London",
-    "Web Design London",
-    "Software Development UK",
-    "Strategic SEO London",
-    "UI/UX Design Agency",
-    "Website Rescue",
-    "Legacy Code Modernization"
+    "Web Development London",
+    "Website Design London",
+    "UI UX Design Agency UK",
+    "SEO Agency London",
+    "Technical SEO Experts",
+
+    // High Intent Keywords
+    "Hire Web Developers UK",
+    "Custom Software Development London",
+    "Enterprise Web Solutions",
+    "Full Stack Development Agency",
+    "Conversion Focused Web Design",
+
+    // Niche / Authority Keywords
+    "Scalable Digital Platforms",
+    "Startup Website Development",
+    "Business Website Solutions UK",
+    "Legacy Code Modernization",
+    "Website Performance Optimization",
+    "Website Redesign Services",
+    "Ecommerce Development UK",
+
+    // Location SEO
+    "London Digital Agency",
+    "UK Web Development Company",
   ],
+
   authors: [{ name: "IPS Global", url: "https://ipsglobal.co.uk" }],
   creator: "IPS Global",
   publisher: "IPS Global",
+
+  metadataBase: new URL("https://ipsglobal.co.uk"),
+
+  alternates: {
+    canonical: "/",
+  },
+
   formatDetection: {
     email: false,
     address: false,
     telephone: false,
   },
-  metadataBase: new URL("https://ipsglobal.co.uk"),
-  alternates: {
-    canonical: "/",
-  },
+
+  // 🔥 Open Graph (for social + Google preview)
   openGraph: {
-    title: "IPS Global | Integrated Platform Systems: Design, Development & SEO",
-    description: "Scale faster and smarter with London's premier integrated digital agency. Design, Development, and SEO under one roof.",
+    title: "IPS Global | Leading Digital Agency in London",
+    description:
+      "Transform your business with IPS Global. Expert web development, modern UI/UX design, and data-driven SEO strategies tailored for growth.",
     url: "https://ipsglobal.co.uk",
     siteName: "IPS Global",
     images: [
       {
-        url: "/og-image.png", // Ensure this image exists or plan for it
+        url: "/og-image.png",
         width: 1200,
         height: 630,
-        alt: "IPS Global - Integrated Digital Agency",
+        alt: "IPS Global - Digital Agency London",
       },
     ],
     locale: "en_GB",
     type: "website",
   },
+
+  // 🔥 Twitter Optimization
   twitter: {
     card: "summary_large_image",
-    title: "IPS Global | Integrated Platform Systems: Design, Development & SEO",
-    description: "High-energy design, development, and SEO solutions based in London.",
+    title: "IPS Global | Web Development, Design & SEO Experts",
+    description:
+      "London-based digital agency delivering high-performance websites, scalable systems, and growth-driven SEO.",
     images: ["/og-image.png"],
   },
+
+  // 🔥 Icons (IMPORTANT for favicon issue)
   icons: {
     icon: [
-      {
-        url: "/IPS White.svg",
-        type: "image/svg+xml",
-      },
+      { url: "/favicon.ico", sizes: "any" },
+      { url: "/favicon-32x32.png", sizes: "32x32", type: "image/png" },
+      { url: "/favicon-16x16.png", sizes: "16x16", type: "image/png" },
     ],
-    shortcut: "/IPS White.svg",
-    apple: "/IPS White.svg",
+    apple: "/apple-touch-icon.png",
   },
+
+  // 🔥 Robots (fully optimized for indexing)
   robots: {
     index: true,
     follow: true,
+    nocache: false,
     googleBot: {
       index: true,
       follow: true,
+      noimageindex: false,
       "max-video-preview": -1,
       "max-image-preview": "large",
       "max-snippet": -1,
     },
   },
+
+  // 🔥 Extra SEO Signals (advanced)
+  category: "technology",
 };
 
 export default function RootLayout({

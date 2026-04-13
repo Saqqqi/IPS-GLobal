@@ -68,20 +68,18 @@ export default function HeroSection() {
                 <div className="space-y-5 min-w-0 flex flex-col items-center lg:items-start text-center lg:text-left">
                     <div className="inline-flex items-center gap-3 px-6 py-1.5 rounded-full bg-white/10 backdrop-blur-md text-white text-[9px] sm:text-[10px] font-bold tracking-[0.15em] uppercase border border-white/20 shadow-lg whitespace-nowrap max-w-full overflow-hidden sm:overflow-visible">
                         <span className="w-2 h-2 bg-blue-400 rounded-full shrink-0 animate-pulse"></span>
-                        <span className="leading-none text-ellipsis text-center lg:text-left">Integrated Platform Systems: Design, Development, & SEO.</span>
+                        <span className="leading-none text-ellipsis text-center lg:text-left">Integrated Platform Systems: Design, Development & SEO.</span>
                     </div>
 
                     <h1 className="text-4xl lg:text-5xl font-extrabold leading-[1.1] tracking-tight text-white font-sans text-balance">
-                        Integrated Design, 
-                        Development & SEO to 
+                        Scale Faster with High Performance
                         <span className="block text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-blue-200">
-                            Scale Faster & Smarter
+                            Digital Solutions
                         </span>
                     </h1>
 
                     <p className="text-gray-300 text-sm max-w-lg leading-relaxed font-sans opacity-90 mx-auto lg:mx-0">
-                        IPS Global delivers high energy digital solutions from our London studio. Premium quality development and design at rates significantly lower than the UK market average.
-                    </p>
+                        IPS Global is a London-based digital agency delivering high performance design, development, and SEO. We build scalable, conversion focused digital products at competitive UK rates.     </p>
 
                     <div className="flex flex-wrap justify-center lg:justify-start gap-2.5">
                         <div className="flex items-center gap-2 px-3.5 py-1.5 rounded-lg bg-white/5 border border-white/10 backdrop-blur-sm text-[11px] font-semibold text-gray-200 hover:bg-white/10 transition-all cursor-default">
@@ -98,7 +96,7 @@ export default function HeroSection() {
                 {/* RIGHT FORM */}
                 <div id="contact" className="lg:justify-self-end w-full max-w-md">
                     <div className="bg-[#1a4b6e]/30 backdrop-blur-2xl p-5 md:p-6 rounded-[1.5rem] border border-white/10 shadow-[0_20px_50px_rgba(0,0,0,0.3)] relative overflow-hidden">
-                        
+
                         {/* Subtle inner glow */}
                         <div className="absolute -top-24 -right-24 w-48 h-48 bg-blue-500/10 rounded-full blur-3xl pointer-events-none"></div>
 
