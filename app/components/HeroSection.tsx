@@ -103,9 +103,7 @@ export default function HeroSection() {
                         <h3 className="text-xl font-extrabold mb-0.5 text-white text-center">
                             Let&apos;s Work Together!
                         </h3>
-                        <p className="text-blue-200/60 text-center text-[9px] mb-4 uppercase tracking-[0.2em] font-bold">
-                            Get a Custom Quote
-                        </p>
+                     
 
                         <form className="space-y-3" onSubmit={handleSubmit}>
                             {/* Full Name */}
