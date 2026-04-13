@@ -99,14 +99,13 @@ export const metadata: Metadata = {
     images: ["/og-image.png"],
   },
 
-  // 🔥 Icons (IMPORTANT for favicon issue)
+  // 🔥 Icons (Corrected to use existing SVG)
   icons: {
     icon: [
-      { url: "/favicon.ico", sizes: "any" },
-      { url: "/favicon-32x32.png", sizes: "32x32", type: "image/png" },
-      { url: "/favicon-16x16.png", sizes: "16x16", type: "image/png" },
+      { url: "/IPS White.svg", type: "image/svg+xml" },
     ],
-    apple: "/apple-touch-icon.png",
+    shortcut: "/IPS White.svg",
+    apple: "/IPS White.svg",
   },
 
   // 🔥 Robots (fully optimized for indexing)
