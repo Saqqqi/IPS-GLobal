@@ -12,7 +12,6 @@ export default function Footer() {
     const companyLinks = [
         { name: "Home", href: "#home" },
         { name: "Services", href: "#services" },
-        { name: "Case Studies", href: "#case-studies" },
         { name: "Contact", href: "#contact" }
     ];
 
@@ -36,7 +35,7 @@ export default function Footer() {
                             />
                         </div>
                         <p className="text-xs leading-relaxed max-w-xs text-gray-400">
-                            IPS Global (Integrated Platform Systems) is London's premier digital agency. We combine high-energy design with ground-up technical excellence.
+                            IPS Global (Integrated Platform Systems) is London's premier digital agency. We combine high energy design with ground up technical excellence.
                         </p>
                     </div>
 
@@ -81,6 +80,17 @@ export default function Footer() {
                                     <p className="text-[8px] uppercase tracking-wider text-gray-600 mb-0.5">Email us</p>
                                     <a href="mailto:info@ipsglobal.co.uk" target="_blank" rel="noopener noreferrer" className="text-gray-300 font-medium text-xs hover:text-white transition-colors">
                                         info@ipsglobal.co.uk
+                                    </a>
+                                </div>
+                            </li>
+                            <li className="flex gap-3 group">
+                                <div className="w-9 h-9 shrink-0 rounded-full bg-white/5 border border-white/10 flex items-center justify-center group-hover:bg-blue-500/10 group-hover:border-blue-500/20 transition-all">
+                                    <Phone size={16} className="text-blue-400" />
+                                </div>
+                                <div>
+                                    <p className="text-[8px] uppercase tracking-wider text-gray-600 mb-0.5">Call us</p>
+                                    <a href="tel:+447473342236" className="text-gray-300 font-medium text-xs hover:text-white transition-colors">
+                                        +44 7473 342236
                                     </a>
                                 </div>
                             </li>

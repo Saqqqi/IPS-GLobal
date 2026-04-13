@@ -14,7 +14,7 @@ const testimonials = [
         rating: 5
     },
     {
-        text: "Excellent experience! They rescued our legacy site, fixed optimization issues, and implemented new features on time. I highly recommend IPS Global for any high-stakes digital rescue mission.",
+        text: "Excellent experience! They rescued our legacy site, fixed optimization issues, and implemented new features on time. I highly recommend IPS Global for any high stakes digital rescue mission.",
         name: "Sophie Adams",
         role: "Founder, Ambiance Hotel",
         rating: 5

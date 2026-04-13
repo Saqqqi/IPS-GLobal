@@ -24,7 +24,7 @@ export default function CoreServicesSection() {
                             Custom Web & App Development
                         </h3>
                         <p className="text-gray-600 text-xs md:text-sm leading-relaxed mb-4">
-                            Tailored software solutions built with modern stacks. From high-converting e-commerce sites to bespoke enterprise mobile applications, we build for scale and performance.
+                            Tailored software solutions built with modern stacks. From high converting E-commerce sites to bespoke enterprise mobile applications, we build for scale and performance.
                         </p>
                         <ul className="text-xs text-gray-500 space-y-1.5">
                             <li className="flex items-center gap-2">
@@ -33,7 +33,7 @@ export default function CoreServicesSection() {
                             </li>
                             <li className="flex items-center gap-2">
                                 <span className="w-1.5 h-1.5 bg-blue-400 rounded-full"></span>
-                                Native & Cross-platform Apps
+                                Native & Cross platform Apps
                             </li>
                         </ul>
                     </div>
@@ -79,7 +79,7 @@ export default function CoreServicesSection() {
                             </li>
                             <li className="flex items-center gap-2">
                                 <span className="w-1.5 h-1.5 bg-blue-400 rounded-full"></span>
-                                Conversion-focused UI
+                                Conversion focused UI
                             </li>
                         </ul>
                     </div>

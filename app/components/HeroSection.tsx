@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-import { ArrowRight, CheckCircle2, Loader2 } from "lucide-react";
+import { ArrowRight, CheckCircle2, Loader2, User, Mail, Layers, MessageSquare } from "lucide-react";
 
 export default function HeroSection() {
     const [formData, setFormData] = useState({
@@ -57,39 +57,39 @@ export default function HeroSection() {
     };
 
     return (
-        <section id="home" className="bg-[#0d3553] text-white py-24 relative overflow-hidden">
+        <section id="home" className="bg-[#0d3553] text-white py-8 md:py-12 relative overflow-hidden flex items-center">
             {/* Background decorations */}
             <div className="absolute top-0 right-0 -translate-y-1/2 translate-x-1/2 w-96 h-96 bg-blue-400/10 rounded-full blur-3xl pointer-events-none"></div>
             <div className="absolute bottom-0 left-0 translate-y-1/2 -translate-x-1/2 w-96 h-96 bg-blue-300/5 rounded-full blur-3xl pointer-events-none"></div>
 
-            <div className="max-w-6xl mx-auto px-6 grid lg:grid-cols-2 items-center gap-16 relative z-10">
+            <div className="max-w-6xl mx-auto px-6 grid lg:grid-cols-2 items-center gap-8 md:gap-12 relative z-10 w-full">
 
                 {/* LEFT TEXT */}
-                <div className="space-y-6">
-                    <div className="inline-flex items-start sm:items-center gap-2 px-3 sm:px-4 py-2 sm:py-1 rounded-xl sm:rounded-full bg-white text-black text-[10px] sm:text-xs font-bold tracking-wide uppercase">
-                        <span className="w-1.5 h-1.5 sm:w-2 sm:h-2 bg-black rounded-full shrink-0 animate-pulse mt-1 sm:mt-0"></span>
-                        <span className="leading-snug text-left">Integrated Platform Systems: Design, Development, & SEO.</span>
+                <div className="space-y-5 min-w-0 flex flex-col items-center lg:items-start text-center lg:text-left">
+                    <div className="inline-flex items-center gap-3 px-6 py-1.5 rounded-full bg-white/10 backdrop-blur-md text-white text-[9px] sm:text-[10px] font-bold tracking-[0.15em] uppercase border border-white/20 shadow-lg whitespace-nowrap max-w-full overflow-hidden sm:overflow-visible">
+                        <span className="w-2 h-2 bg-blue-400 rounded-full shrink-0 animate-pulse"></span>
+                        <span className="leading-none text-ellipsis text-center lg:text-left">Integrated Platform Systems: Design, Development, & SEO.</span>
                     </div>
 
-                    <h1 className="text-4xl md:text-5xl font-bold leading-snug tracking-tight text-white font-sans">
-                        Integrated Design, <br />
-                        Development & SEO to <br />
-                        <span className="text-blue-400 drop-shadow-sm">
+                    <h1 className="text-4xl lg:text-5xl font-extrabold leading-[1.1] tracking-tight text-white font-sans text-balance">
+                        Integrated Design, 
+                        Development & SEO to 
+                        <span className="block text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-blue-200">
                             Scale Faster & Smarter
                         </span>
                     </h1>
 
-                    <p className="text-gray-300 text-base max-w-lg leading-relaxed font-sans">
+                    <p className="text-gray-300 text-sm max-w-lg leading-relaxed font-sans opacity-90 mx-auto lg:mx-0">
                         IPS Global delivers high energy digital solutions from our London studio. Premium quality development and design at rates significantly lower than the UK market average.
                     </p>
 
-                    <div className="flex flex-col sm:flex-row gap-4">
-                        <div className="flex items-center gap-2 text-sm text-gray-300">
-                            <CheckCircle2 size={16} className="text-blue-400" />
+                    <div className="flex flex-wrap justify-center lg:justify-start gap-2.5">
+                        <div className="flex items-center gap-2 px-3.5 py-1.5 rounded-lg bg-white/5 border border-white/10 backdrop-blur-sm text-[11px] font-semibold text-gray-200 hover:bg-white/10 transition-all cursor-default">
+                            <CheckCircle2 size={14} className="text-blue-400" />
                             2 Months Free Support
                         </div>
-                        <div className="flex items-center gap-2 text-sm text-gray-300">
-                            <CheckCircle2 size={16} className="text-blue-400" />
+                        <div className="flex items-center gap-2 px-3.5 py-1.5 rounded-lg bg-white/5 border border-white/10 backdrop-blur-sm text-[11px] font-semibold text-gray-200 hover:bg-white/10 transition-all cursor-default">
+                            <CheckCircle2 size={14} className="text-blue-400" />
                             London Based Studio
                         </div>
                     </div>
@@ -97,72 +97,90 @@ export default function HeroSection() {
 
                 {/* RIGHT FORM */}
                 <div id="contact" className="lg:justify-self-end w-full max-w-md">
-                    <div className="bg-[#1a4b6e]/40 backdrop-blur-xl p-6 rounded-3xl border border-white/10 shadow-2xl relative">
+                    <div className="bg-[#1a4b6e]/30 backdrop-blur-2xl p-5 md:p-6 rounded-[1.5rem] border border-white/10 shadow-[0_20px_50px_rgba(0,0,0,0.3)] relative overflow-hidden">
+                        
+                        {/* Subtle inner glow */}
+                        <div className="absolute -top-24 -right-24 w-48 h-48 bg-blue-500/10 rounded-full blur-3xl pointer-events-none"></div>
 
-                        {/* Decorative corner */}
-                        <div className="absolute top-0 right-0 w-24 h-24 bg-blue-400/10 rounded-full blur-2xl -m-8 pointer-events-none"></div>
-
-                        <h3 className="text-2xl font-bold mb-5 text-white text-center">
-                            Lets Work Together!
-
+                        <h3 className="text-xl font-extrabold mb-0.5 text-white text-center">
+                            Let&apos;s Work Together!
                         </h3>
+                        <p className="text-blue-200/60 text-center text-[9px] mb-4 uppercase tracking-[0.2em] font-bold">
+                            Get a Custom Quote
+                        </p>
 
-                        <form className="space-y-5" onSubmit={handleSubmit}>
+                        <form className="space-y-3" onSubmit={handleSubmit}>
                             {/* Full Name */}
-                            <div>
-                                <label className="block text-xs font-medium text-white uppercase tracking-wider mb-2">Full Name</label>
-                                <input
-                                    type="text"
-                                    required
-                                    value={formData.name}
-                                    onChange={(e) => setFormData({ ...formData, name: e.target.value })}
-                                    placeholder="Your Name"
-                                    className="w-full bg-[#0d3553]/50 rounded-xl px-4 py-3 text-white placeholder-gray-500 focus:outline-none font-sans text-sm border border-white/10"
-                                />
+                            <div className="space-y-1">
+                                <label className="flex items-center gap-2 text-[9px] font-bold text-blue-200/50 uppercase tracking-widest ml-1">
+                                    <User size={10} />
+                                    Full Name
+                                </label>
+                                <div className="relative group">
+                                    <input
+                                        type="text"
+                                        required
+                                        value={formData.name}
+                                        onChange={(e) => setFormData({ ...formData, name: e.target.value })}
+                                        placeholder="Enter your name"
+                                        className="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-2.5 text-white placeholder-white/20 focus:outline-none focus:ring-2 focus:ring-blue-500/40 focus:bg-white/10 transition-all text-xs font-medium"
+                                    />
+                                </div>
                             </div>
 
                             {/* Email */}
-                            <div>
-                                <label className="block text-xs font-medium text-white uppercase tracking-wider mb-2">Email Address</label>
-                                <input
-                                    type="email"
-                                    required
-                                    value={formData.email}
-                                    onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-                                    placeholder="email@example.com"
-                                    className="w-full bg-[#0d3553]/50 rounded-xl px-4 py-3 text-white placeholder-gray-500 focus:outline-none font-sans text-sm border border-white/10"
-                                />
+                            <div className="space-y-1">
+                                <label className="flex items-center gap-2 text-[9px] font-bold text-blue-200/50 uppercase tracking-widest ml-1">
+                                    <Mail size={10} />
+                                    Email Address
+                                </label>
+                                <div className="relative group">
+                                    <input
+                                        type="email"
+                                        required
+                                        value={formData.email}
+                                        onChange={(e) => setFormData({ ...formData, email: e.target.value })}
+                                        placeholder="email@example.com"
+                                        className="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-2.5 text-white placeholder-white/20 focus:outline-none focus:ring-2 focus:ring-blue-500/40 focus:bg-white/10 transition-all text-xs font-medium"
+                                    />
+                                </div>
                             </div>
 
                             {/* Services */}
-                            <div>
-                                <label className="block text-xs font-medium text-white uppercase tracking-wider mb-2">Service Category</label>
-                                <div className="relative">
+                            <div className="space-y-1">
+                                <label className="flex items-center gap-2 text-[9px] font-bold text-blue-200/50 uppercase tracking-widest ml-1">
+                                    <Layers size={10} />
+                                    Service Category
+                                </label>
+                                <div className="relative group">
                                     <select
                                         value={formData.service}
                                         onChange={(e) => setFormData({ ...formData, service: e.target.value })}
-                                        className="w-full bg-[#0d3553]/50 rounded-xl px-4 py-3 text-white focus:outline-none text-sm cursor-pointer font-sans appearance-none border border-white/10"
+                                        className="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-2.5 text-white focus:outline-none focus:ring-2 focus:ring-blue-500/40 focus:bg-white/10 transition-all text-xs font-medium appearance-none cursor-pointer"
                                     >
-                                        <option className="bg-[#0d3553]" value="Web & App Development">Web & App Development</option>
-                                        <option className="bg-[#0d3553]" value="Strategic SEO">Strategic SEO</option>
-                                        <option className="bg-[#0d3553]" value="UI/UX Redesign">UI/UX Redesign</option>
-                                        <option className="bg-[#0d3553]" value="Website Rescue (Bug Fixes)">Website Rescue (Bug Fixes)</option>
+                                        <option className="bg-[#0b1f2e]" value="Web & App Development">Web & App Development</option>
+                                        <option className="bg-[#0b1f2e]" value="Strategic SEO">Strategic SEO</option>
+                                        <option className="bg-[#0b1f2e]" value="UI/UX Redesign">UI/UX Redesign</option>
+                                        <option className="bg-[#0b1f2e]" value="Website Rescue (Bug Fixes)">Website Rescue (Bug Fixes)</option>
                                     </select>
-                                    <div className="absolute right-3 top-1/2 -translate-y-1/2 pointer-events-none text-gray-400">
+                                    <div className="absolute right-4 top-1/2 -translate-y-1/2 pointer-events-none text-white/40">
                                         <ArrowRight size={14} className="rotate-90" />
                                     </div>
                                 </div>
                             </div>
 
                             {/* Details */}
-                            <div>
-                                <label className="block text-xs font-medium text-white uppercase tracking-wider mb-2">Project Details</label>
+                            <div className="space-y-1">
+                                <label className="flex items-center gap-2 text-[9px] font-bold text-blue-200/50 uppercase tracking-widest ml-1">
+                                    <MessageSquare size={10} />
+                                    Project Details
+                                </label>
                                 <textarea
                                     required
                                     value={formData.details}
                                     onChange={(e) => setFormData({ ...formData, details: e.target.value })}
                                     placeholder="Tell us about your digital goals..."
-                                    className="w-full bg-[#0d3553]/50 rounded-xl px-4 py-3 text-white placeholder-gray-500 focus:outline-none resize-none h-24 text-sm font-sans border border-white/10"
+                                    className="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-2.5 text-white placeholder-white/20 focus:outline-none focus:ring-2 focus:ring-blue-500/40 focus:bg-white/10 transition-all text-xs font-medium resize-none h-20"
                                 />
                             </div>
 
@@ -170,29 +188,34 @@ export default function HeroSection() {
                             <button
                                 type="submit"
                                 disabled={status === "loading"}
-                                className="w-full bg-white text-[#0d3553] font-bold py-4 rounded-xl shadow-lg hover:bg-gray-100 transform hover:-translate-y-0.5 transition-all duration-200 uppercase tracking-wider text-sm flex items-center justify-center gap-2"
+                                className="w-full group relative overflow-hidden bg-gradient-to-r from-blue-500 to-blue-600 text-white font-bold py-4 rounded-2xl shadow-[0_10px_20px_rgba(59,130,246,0.2)] hover:shadow-[0_15px_30px_rgba(59,130,246,0.3)] transform hover:-translate-y-0.5 transition-all duration-300 uppercase tracking-widest text-xs flex items-center justify-center gap-3"
                             >
                                 {status === "loading" ? (
                                     <>
-                                        <Loader2 className="animate-spin" size={20} />
-                                        Processing...
+                                        <Loader2 className="animate-spin" size={18} />
+                                        Processing Request...
                                     </>
                                 ) : (
-                                    "Send Message!"
+                                    <>
+                                        Start Your Project
+                                        <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />
+                                    </>
                                 )}
                             </button>
 
                             {/* Status Messages */}
-                            {status === "success" && (
-                                <p className="text-green-400 text-center text-sm font-medium animate-pulse">
-                                    Message sent successfully! We&apos;ll be in touch soon.
-                                </p>
-                            )}
-                            {(status === "error" || status === "validation-error") && (
-                                <p className="text-red-400 text-center text-sm font-medium">
-                                    {errorMessage}
-                                </p>
-                            )}
+                            <div className="min-h-[20px]">
+                                {status === "success" && (
+                                    <p className="text-blue-400 text-center text-[10px] font-bold uppercase tracking-widest animate-pulse">
+                                        Request sent! We&apos;ll be in touch soon.
+                                    </p>
+                                )}
+                                {(status === "error" || status === "validation-error") && (
+                                    <p className="text-red-400 text-center text-[10px] font-bold uppercase tracking-widest">
+                                        {errorMessage}
+                                    </p>
+                                )}
+                            </div>
                         </form>
                     </div>
                 </div>

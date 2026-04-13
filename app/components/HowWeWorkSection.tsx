@@ -28,7 +28,7 @@ export default function HowWeWorkSection() {
         {
             number: "06",
             title: "Extended Support",
-            description: "Every build includes 2 months of post-launch maintenance, ensuring your systems stay healthy and optimized as you scale."
+            description: "Every build includes 2 months of post launch maintenance, ensuring your systems stay healthy and optimized as you scale."
         }
     ];
 
@@ -45,7 +45,7 @@ export default function HowWeWorkSection() {
                     </h2>
                     <p className="max-w-2xl mx-auto text-gray-400 text-sm md:text-base leading-relaxed">
                         At IPS Global, we turn technical challenges into growth drivers through a structured,
-                        high-energy methodology delivered with London standard precision.
+                        high energy methodology delivered with London standard precision.
                     </p>
                 </div>
 

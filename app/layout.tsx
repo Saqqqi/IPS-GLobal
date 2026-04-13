@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     "Website Rescue",
     "Legacy Code Modernization"
   ],
-  authors: [{ name: "IPS Global", url: "https://ipsglobal.co" }],
+  authors: [{ name: "IPS Global", url: "https://ipsglobal.co.uk" }],
   creator: "IPS Global",
   publisher: "IPS Global",
   formatDetection: {
@@ -37,14 +37,14 @@ export const metadata: Metadata = {
     address: false,
     telephone: false,
   },
-  metadataBase: new URL("https://ipsglobal.co"),
+  metadataBase: new URL("https://ipsglobal.co.uk"),
   alternates: {
     canonical: "/",
   },
   openGraph: {
     title: "IPS Global | Integrated Platform Systems: Design, Development & SEO",
     description: "Scale faster and smarter with London's premier integrated digital agency. Design, Development, and SEO under one roof.",
-    url: "https://ipsglobal.co",
+    url: "https://ipsglobal.co.uk",
     siteName: "IPS Global",
     images: [
       {

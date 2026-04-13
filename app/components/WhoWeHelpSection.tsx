@@ -40,7 +40,7 @@ export default function WhoWeHelpSection() {
                         </span>
                         <div>
                             <h4 className="font-bold text-base md:text-lg mb-1">E-commerce Brands</h4>
-                            <p className="text-blue-100/70 text-xs md:text-sm leading-relaxed">Increasing conversions with user-centric design and technical SEO that dominates search.</p>
+                            <p className="text-blue-100/70 text-xs md:text-sm leading-relaxed">Increasing conversions with user centric design and technical SEO that dominates search.</p>
                         </div>
                     </div>
 
