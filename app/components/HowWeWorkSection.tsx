@@ -2,33 +2,33 @@ export default function HowWeWorkSection() {
     const steps = [
         {
             number: "01",
-            title: "Discovery & Audit",
-            description: "We deep dive into your current systems to uncover bottlenecks and identify exactly what's holding your digital growth back."
+            title: "Discovery",
+            description: "Identify What's Holding You Back. We start by understanding your current systems, team structure, and goals. Our consultants uncover workflow bottlenecks and inefficiencies that are costing you time, money, and missed opportunities."
         },
         {
             number: "02",
-            title: "Strategic Roadmap",
-            description: "No guesswork. We build a tailored project blueprint that aligns your business goals with the right technology stack."
+            title: "Strategy & Planning",
+            description: "Built Around Your Business. Next, we define clear requirements and develop a tailored roadmap, whether it's automating processes, upgrading legacy systems, or deploying IT talent. Every solution is engineered for scalability and business impact."
         },
         {
             number: "03",
-            title: "Transparent Proposal",
-            description: "A clear, itemized plan with fixed timelines and budgets. No hidden fees or 'dev speak' just straightforward value."
+            title: "Clear Proposal",
+            description: "What You See is What You Get. We present a transparent, step-by-step plan that aligns with your budget, timeline, and KPIs. No fluff - just actionable insight with room for your input before execution begins."
         },
         {
             number: "04",
-            title: "High Energy Execution",
-            description: "Our London based team builds with clean code and high performance in mind, keeping you updated every step of the way."
+            title: "Execution",
+            description: "High-Performance Delivery. Our expert teams implement your solution using best practices, clean code, and modern tech stacks. We maintain regular communication and status reports, so you never stay in the dark."
         },
         {
             number: "05",
-            title: "Precision Launch",
-            description: "Rigorous testing and quality assurance ensure your deployment is flawless and ready to handle traffic from day one."
+            title: "Quality Control & Launch",
+            description: "Every deployment undergoes rigorous testing and review as we make sure everything works perfectly before going live."
         },
         {
             number: "06",
-            title: "Extended Support",
-            description: "Every build includes 2 months of post launch maintenance, ensuring your systems stay healthy and optimized as you scale."
+            title: "Post-Launch Support",
+            description: "We monitor performance, provide ongoing support, and continuously optimize your setup to meet evolving business goals."
         }
     ];
 
@@ -40,12 +40,11 @@ export default function HowWeWorkSection() {
             <div className="max-w-6xl mx-auto px-6 relative z-10">
 
                 <div className="text-center mb-10 md:mb-12">
-                    <h2 className="text-2xl md:text-3xl font-bold mb-2">
-                        Our Precision Process
+                    <h2 className="text-2xl md:text-3xl font-bold mb-2 text-white">
+                        How We Work
                     </h2>
-                    <p className="max-w-2xl mx-auto text-gray-400 text-sm md:text-base leading-relaxed">
-                        At IPS Global, we turn technical challenges into growth drivers through a structured,
-                        high energy methodology delivered with London standard precision.
+                    <p className="max-w-2xl mx-auto text-blue-200/70 text-sm md:text-base leading-relaxed">
+                        Here at IPS Global, we turn operational challenges into growth drivers and ensure every project is efficient, ROI-focused, and delivered on time:
                     </p>
                 </div>
 
@@ -67,14 +66,12 @@ export default function HowWeWorkSection() {
                             <h3 className="text-base md:text-lg font-bold mb-2 group-hover:text-blue-300 transition-colors">
                                 {step.title}
                             </h3>
-                            <p className="text-xs md:text-sm text-gray-400 leading-relaxed">
+                            <p className="text-xs md:text-sm text-blue-100/60 leading-relaxed">
                                 {step.description}
                             </p>
                         </div>
                     ))}
                 </div>
-
-
 
             </div>
         </section>

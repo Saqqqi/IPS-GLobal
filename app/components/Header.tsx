@@ -17,28 +17,7 @@ export default function Header() {
 
     return (
         <header className="sticky top-0 z-50 text-gray-900 transition-all duration-300 bg-white/95 backdrop-blur-md shadow-sm border-b border-gray-100 flex flex-col">
-            <div className="bg-[#0d3553] text-white py-1.5 px-6 hidden md:block">
-                <div className="max-w-6xl mx-auto flex justify-center items-center gap-10 text-[10px] md:text-xs font-medium">
-                    <a href="mailto:info@ipsglobal.co.uk" className="flex items-center gap-1.5 hover:text-blue-200 transition-colors">
-                        <Mail size={12} className="text-blue-300" />
-                        <span>info@ipsglobal.co.uk</span>
-                    </a>
-                    
-                    <div className="h-3 w-px bg-white/20"></div>
 
-                    <div className="flex items-center gap-1.5">
-                        <MapPin size={12} className="text-blue-300" />
-                        <span>145 Upper Tooting Rd, London SW17 7TJ</span>
-                    </div>
-
-                    <div className="h-3 w-px bg-white/20"></div>
-
-                    <div className="flex items-center gap-1.5 hover:text-blue-200 transition-colors">
-                        <Phone size={12} className="text-blue-300" />
-                        <a href="tel:+447473342236">+44 7473 342236</a>
-                    </div>
-                </div>
-            </div>
 
             <div className="max-w-6xl mx-auto px-6 w-full flex items-center justify-between h-16">
 

@@ -52,7 +52,7 @@ export default function TestimonialsSection() {
                                     ))}
                                 </div>
 
-                                <p className="text-gray-300 text-xs md:text-sm leading-relaxed italic mb-4 line-clamp-4">
+                                <p className="text-blue-100/60 text-xs md:text-sm leading-relaxed italic mb-4 line-clamp-4">
                                     &ldquo;{t.text}&rdquo;
                                 </p>
                             </div>
@@ -65,7 +65,7 @@ export default function TestimonialsSection() {
                                     <h4 className="font-bold text-sm text-white group-hover:text-blue-300 transition-colors truncate">
                                         {t.name}
                                     </h4>
-                                    <p className="text-[10px] uppercase tracking-widest text-gray-500 font-semibold mt-0.5 truncate">
+                                    <p className="text-[10px] uppercase tracking-widest text-blue-200/50 font-semibold mt-0.5 truncate">
                                         {t.role}
                                     </p>
                                 </div>

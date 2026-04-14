@@ -5,10 +5,10 @@ export default function WhoWeHelpSection() {
             <div className="max-w-6xl mx-auto px-6">
 
                 <div className="text-center mb-10 md:mb-12">
-                    <h2 className="text-2xl md:text-3xl font-bold mb-2">
+                    <h2 className="text-2xl md:text-3xl font-bold mb-2 text-white">
                         Who We Empower & Why
                     </h2>
-                    <p className="text-sm md:text-base text-blue-200 max-w-2xl mx-auto">
+                    <p className="text-sm md:text-base text-blue-200/70 max-w-2xl mx-auto leading-relaxed">
                         IPS Global partners with startups, SMBs, and established enterprises to solve complex digital challenges.
                     </p>
                 </div>
@@ -19,8 +19,8 @@ export default function WhoWeHelpSection() {
                             01
                         </span>
                         <div>
-                            <h4 className="font-bold text-base md:text-lg mb-1">Startups & Scaleups</h4>
-                            <p className="text-blue-100/70 text-xs md:text-sm leading-relaxed">Launching ground up MVPs and scaling digital products with speed and precision.</p>
+                            <h4 className="font-bold text-base md:text-lg mb-1 text-white">Startups & Scaleups</h4>
+                            <p className="text-blue-100/60 text-xs md:text-sm leading-relaxed">Launching ground up MVPs and scaling digital products with speed and precision.</p>
                         </div>
                     </div>
 
@@ -29,8 +29,8 @@ export default function WhoWeHelpSection() {
                             02
                         </span>
                         <div>
-                            <h4 className="font-bold text-base md:text-lg mb-1">Legacy Businesses</h4>
-                            <p className="text-blue-100/70 text-xs md:text-sm leading-relaxed">Rescuing outdated systems, fixing critical bugs, and modernizing user experiences.</p>
+                            <h4 className="font-bold text-base md:text-lg mb-1 text-white">Legacy Businesses</h4>
+                            <p className="text-blue-100/60 text-xs md:text-sm leading-relaxed">Modernizing outdated systems, fixing critical bugs, and stabilizing user experiences.</p>
                         </div>
                     </div>
 
@@ -39,8 +39,8 @@ export default function WhoWeHelpSection() {
                             03
                         </span>
                         <div>
-                            <h4 className="font-bold text-base md:text-lg mb-1">E-commerce Brands</h4>
-                            <p className="text-blue-100/70 text-xs md:text-sm leading-relaxed">Increasing conversions with user centric design and technical SEO that dominates search.</p>
+                            <h4 className="font-bold text-base md:text-lg mb-1 text-white">E-commerce Brands</h4>
+                            <p className="text-blue-100/60 text-xs md:text-sm leading-relaxed">Increasing conversions with user centric design and technical SEO that dominates search.</p>
                         </div>
                     </div>
 
@@ -49,15 +49,13 @@ export default function WhoWeHelpSection() {
                             04
                         </span>
                         <div>
-                            <h4 className="font-bold text-base md:text-lg mb-1">B2B Service Providers</h4>
-                            <p className="text-blue-100/70 text-xs md:text-sm leading-relaxed">Optimizing workflows and building custom portals to enhance client satisfaction.</p>
+                            <h4 className="font-bold text-base md:text-lg mb-1 text-white">B2B Service Providers</h4>
+                            <p className="text-blue-100/60 text-xs md:text-sm leading-relaxed">Optimizing workflows and building custom portals to enhance client satisfaction.</p>
                         </div>
                     </div>
                 </div>
 
-                <p className="text-center text-xs md:text-sm mt-8 md:mt-10 text-blue-200 font-medium">
-                    High energy digital solutions for every growth phase.
-                </p>
+
 
             </div>
 

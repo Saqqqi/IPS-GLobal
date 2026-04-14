@@ -10,8 +10,7 @@ export default function CoreServicesSection() {
                         Our Core Service Pillars
                     </h2>
                     <p className="text-gray-600 text-sm md:text-base max-w-2xl mx-auto">
-                        End-to-end digital solutions tailored to the UK market, delivering premium results without the premium price tag.
-                    </p>
+                        End-to-end solutions built with modern tech stacks.  </p>
                 </div>
 
                 <div className="grid md:grid-cols-3 gap-5 md:gap-6">
@@ -24,17 +23,13 @@ export default function CoreServicesSection() {
                             Custom Web & App Development
                         </h3>
                         <p className="text-gray-600 text-xs md:text-sm leading-relaxed mb-4">
-                            Tailored software solutions built with modern stacks. From high converting E-commerce sites to bespoke enterprise mobile applications, we build for scale and performance.
-                        </p>
+                            Tailored software built for scale. From high converting e-commerce sites to bespoke enterprise applications, we ensure your tech grows with you.        </p>
                         <ul className="text-xs text-gray-500 space-y-1.5">
                             <li className="flex items-center gap-2">
                                 <span className="w-1.5 h-1.5 bg-blue-400 rounded-full"></span>
                                 React, Next.js & Node.js
                             </li>
-                            <li className="flex items-center gap-2">
-                                <span className="w-1.5 h-1.5 bg-blue-400 rounded-full"></span>
-                                Native & Cross platform Apps
-                            </li>
+
                         </ul>
                     </div>
 
@@ -47,17 +42,13 @@ export default function CoreServicesSection() {
                             Strategic SEO & Growth
                         </h3>
                         <p className="text-gray-600 text-xs md:text-sm leading-relaxed mb-4">
-                            Dominate search rankings and drive organic traffic. Our data led SEO strategies focus on ROI, ensuring your business gets found by the right customers at the right time.
-                        </p>
+                            Drive organic traffic that converts. Our data-led strategies focus on ROI, ensuring your business is found by the right customers at the right time.    </p>
                         <ul className="text-xs text-gray-500 space-y-1.5">
                             <li className="flex items-center gap-2">
                                 <span className="w-1.5 h-1.5 bg-blue-400 rounded-full"></span>
                                 Technical SEO Audits
                             </li>
-                            <li className="flex items-center gap-2">
-                                <span className="w-1.5 h-1.5 bg-blue-400 rounded-full"></span>
-                                Content Strategy & Authority
-                            </li>
+
                         </ul>
                     </div>
 
@@ -70,13 +61,9 @@ export default function CoreServicesSection() {
                             UI/UX Design & Branding
                         </h3>
                         <p className="text-gray-600 text-xs md:text-sm leading-relaxed mb-4">
-                            User centric designs that bridge the gap between aesthetics and functionality. We create premium digital experiences that resonate with your brand and maximize conversions.
-                        </p>
+                            Bridging the gap between aesthetics and functionality. We create premium digital experiences designed to maximize user retention and conversions.   </p>
                         <ul className="text-xs text-gray-500 space-y-1.5">
-                            <li className="flex items-center gap-2">
-                                <span className="w-1.5 h-1.5 bg-blue-400 rounded-full"></span>
-                                Interactive Prototyping
-                            </li>
+
                             <li className="flex items-center gap-2">
                                 <span className="w-1.5 h-1.5 bg-blue-400 rounded-full"></span>
                                 Conversion focused UI

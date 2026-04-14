@@ -1,4 +1,4 @@
-import { Mail, Phone, MapPin, ArrowUpRight } from "lucide-react";
+import { Mail, Phone, MapPin, ArrowUpRight, Facebook, Linkedin } from "lucide-react";
 import Image from "next/image";
 
 export default function Footer() {
@@ -24,7 +24,7 @@ export default function Footer() {
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 md:gap-6 lg:gap-5 mb-12 md:mb-16">
 
                     {/* Brand Section */}
-                    <div className="space-y-3">
+                    <div className="space-y-4">
                         <div className="inline-block">
                             <Image
                                 src="/IPS Global White.svg"
@@ -37,6 +37,26 @@ export default function Footer() {
                         <p className="text-xs leading-relaxed max-w-xs text-gray-400">
                             IPS Global (Integrated Platform Systems) is London's premier digital agency. We combine high energy design with ground up technical excellence.
                         </p>
+                        
+                        {/* Social Links */}
+                        <div className="flex items-center gap-3 pt-2">
+                            <a 
+                                href="https://linkedin.com/company/ips-global-uk" 
+                                target="_blank" 
+                                rel="noopener noreferrer"
+                                className="w-8 h-8 rounded-full bg-white/5 border border-white/10 flex items-center justify-center text-gray-400 hover:text-[#0077B5] hover:bg-white/10 hover:border-[#0077B5]/30 transition-all duration-300"
+                            >
+                                <Linkedin size={16} />
+                            </a>
+                            <a 
+                                href="https://www.facebook.com/profile.php?id=61573363726197" 
+                                target="_blank" 
+                                rel="noopener noreferrer"
+                                className="w-8 h-8 rounded-full bg-white/5 border border-white/10 flex items-center justify-center text-gray-400 hover:text-[#1877F2] hover:bg-white/10 hover:border-[#1877F2]/30 transition-all duration-300"
+                            >
+                                <Facebook size={16} />
+                            </a>
+                        </div>
                     </div>
 
                     {/* Services Column */}
